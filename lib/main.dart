@@ -63,6 +63,8 @@ class _MyHomePageState extends State<MyHomePage> {
       // so that the display can reflect the updated values. If we changed
       // _counter without calling setState(), then the build method would not be
       // called again, and so nothing would appear to happen.
+      // The framework has been optimized to only rebuild the widgets that need
+      // to be updated, so this is usually very efficient.
       _counter++;
     });
   }
