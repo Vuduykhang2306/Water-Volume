@@ -1,16 +1,21 @@
-# water_volume
+# Water-Volume
 
-A new Flutter project.
+Nguyên mẫu đầu tiên của ứng dụng giám sát chất lượng nước ao nuôi thuỷ sản
+(tháng 8/2025). Một màn hình Flutter duy nhất, đọc thẳng bảng `water_quality`
+trên Supabase và vẽ biểu đồ.
 
-## Getting Started
+Đây là bước thử nghiệm để xác nhận đường dữ liệu ESP32 → Supabase → ứng dụng có
+chạy được, trước khi viết lại thành sản phẩm hoàn chỉnh.
 
-This project is a starting point for a Flutter application.
+**Bản hoàn chỉnh:** [aquaoracle-app](https://github.com/Vuduykhang2306/aquaoracle-app)
+— nhiều màn hình, dự báo bằng PatchTST, chatbot Gemini.
+**Firmware:** [Esp32_AquaOracle_Programm](https://github.com/Vuduykhang2306/Esp32_AquaOracle_Programm)
 
-A few resources to get you started if this is your first Flutter project:
+## Ghi chú bảo mật
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Bản gốc hardcode Supabase URL và anon key trong `lib/main.dart`. Lịch sử git đã
+được viết lại bằng `git filter-repo` để gỡ; Supabase project cũ đã bị xoá.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Trạng thái
+
+Đã ngưng phát triển, giữ lại để tham chiếu.
