@@ -4,7 +4,7 @@ Nguyên mẫu đầu tiên của ứng dụng giám sát chất lượng nước
 (tháng 8/2025). Một màn hình Flutter duy nhất, đọc thẳng bảng `water_quality`
 trên Supabase và vẽ biểu đồ.
 
-Đây là bước thử nghiệm để xác nhận đường dữ liệu ESP32 → Supabase → ứng dụng có
+Đây là bước thử nghiệm để xác nhận đường dữ liệu ESP32 -> Supabase -> ứng dụng có
 chạy được, trước khi viết lại thành sản phẩm hoàn chỉnh.
 
 **Bản hoàn chỉnh:** [aquaoracle-app](https://github.com/Vuduykhang2306/aquaoracle-app)
